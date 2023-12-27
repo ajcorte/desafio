@@ -1,8 +1,10 @@
 let playerName = "Agnaldo";
+console.log("Digite o nome do jogador: " + playerName);
+
+let pontosXP = "6002";
+console.log("Digite o total de XP do Heroi: " + pontosXP)
 
 let nivelHero = "";
-
-let pontosXP = "8368";
 
 if (pontosXP <= 1000){
   nivelHero =  "Ferro";
