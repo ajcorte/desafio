@@ -1,8 +1,10 @@
-let playerName = "Agnaldo";
-console.log("Digite o nome do jogador: " + playerName);
+console.log("CLASSIFICADOR DE NIVEL DE HEROI");
 
-let pontosXP = "6002";
-console.log("Digite o total de XP do Heroi: " + pontosXP)
+let heroName = "Demolidor";
+console.log("Digite o nome do HEROI do jogo: " + heroName + ".");
+
+let pontosXP = "10002";
+console.log("Digite o total de pontos de XP: " + pontosXP + " pontos.");
 
 let nivelHero = "";
 
@@ -30,5 +32,5 @@ if (pontosXP > 9000 && pontosXP < 10001){
 if (pontosXP >= 10001){
   nivelHero = "Radiante";
 }
-console.log("O jogador " + playerName + " tem " + pontosXP + " pontos de XP e esta no nivel " + nivelHero +"!");
-
+console.log("O heroi do jogo, " + heroName + ", tem " + pontosXP + " pontos de XP e esta no nivel " + nivelHero +"!");
+console.log("FIM DA EXIBICAO!");
